@@ -1,0 +1,45 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Monitor
+remark = insert description 
+
++ Local Network
+menu = Local Network
+title = Local Network 
+
+++ Gateway
+menu = Local Gateway
+title = Local Gateway
+host = insertlocalgatewayip 
+
++ Internet
+menu = Internet
+title = Internet Access (Ping)
+
+++ Google
+title = Google
+menu = Google
+host = www.google.com
+
+++ FB
+title = Facebook
+menu = Facebook
+host = www.facebook.com
+
+++ ABC
+title = ABC
+menu = ABC
+host = www.abc.net.au
+
+++ Telstra DNS 1
+title = Telstra DNS 1
+menu = Telstra DNS 1
+host = 61.9.211.1
+
+++ Telstra DNS 2
+title = Telstra DNS 2
+menu = Telstra DNS 2
+host = 61.9.211.33
